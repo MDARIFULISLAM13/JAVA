@@ -24,11 +24,11 @@ public class string {
         // Substring form string
         String Sort_name = Name.substring(0, 4);
         System.out.println(Sort_name);
-        
+
          // input string
         Scanner scn = new Scanner(System.in);
         String new_s = scn.nextLine();
         System.out.println(new_s);
-
+        scn.close();
     }
 }

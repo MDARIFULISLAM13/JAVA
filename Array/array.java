@@ -28,11 +28,11 @@ public class array {
         for (int i = 0; i < n; i++) {
             Name[i] = scn.nextLine();  // Read the name input
         }
-Arrays.sort(Name);
+        Arrays.sort(Name);
         // Output the entered names
         for (int i = 0; i < n; i++) {
             System.out.println(Name[i]);
         }
-
+    scn.close();
     }
 }
